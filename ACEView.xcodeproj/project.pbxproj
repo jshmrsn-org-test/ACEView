@@ -5576,7 +5576,8 @@
 		7C8A728215EA0769007E5EB8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastTestingUpgradeCheck = 0710;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Code of Interest";
 			};
 			buildConfigurationList = 7C8A728515EA0769007E5EB8 /* Build configuration list for PBXProject "ACEView" */;
