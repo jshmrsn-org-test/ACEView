@@ -26,7 +26,7 @@ NSString *const ACETextDidEndEditingNotification = @"ACETextDidEndEditingNotific
 #pragma mark - ACEView private
 static NSArray *allowedSelectorNamesForJavaScript;
 
-@interface ACEView() {
+@interface ACEView() <WebFrameLoadDelegate, WebUIDelegate> {
     WebView *           printingView;
     NSPrintOperation *  printOperation;
 }
